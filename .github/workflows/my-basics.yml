@@ -8,15 +8,15 @@ on:
       - master
       
 jobs:
-	my_testing:
+ my_testing:
     runs-on: ubuntu-latest
     
     steps:
     - name: Hello Message
       run : echo "Hello World from Testing job"
-				
-	my_deploy:
-  	runs_on: ubuntu_latest
-		steps:
-		- name: Print Hello Message
-			run : echo "Hello World from Deploy job"
+      
+my_deploy:
+    runs_on: ubuntu_latest
+    steps:
+    - name: Print Hello Message
+      run : echo "Hello World from Deploy job"
